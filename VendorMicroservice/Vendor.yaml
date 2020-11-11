@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: vendorrepository
-        image: containerr1.azurecr.io/vendorrepository:latest
+        image: mfpecr.azurecr.io/vendorrepository:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
